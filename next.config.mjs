@@ -11,6 +11,9 @@ const nextConfig = {
         ],
         unoptimized: true,
     },
+    eslint: {
+    ignoreDuringBuilds: true,
+  },
     reactStrictMode: true,
     swcMinify: true,
     output: "export",

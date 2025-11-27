@@ -23,3 +23,7 @@ const millionConfig = {
 // export default MillionLint.next(millionConfig)(nextConfig);
 
 export default million.next(nextConfig, millionConfig);
+
+export default {
+  output: "standalone",
+};
